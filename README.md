@@ -38,3 +38,21 @@ PS C:\> Export-Dtsx -Server contoso.com -Output ~\dtsx\contoso
 PS C:\> Get-Help Export-Dtsx -Full
 ```
 
+
+## Export-Ispac
+
+Extract SQL Server Integration Service Projects to *.ispac files.
+
+
+### Usage
+
+```powershell
+PS C:\> Export-Ispac -Server contoso.com -Folder ~\dacpacs\contoso 
+```
+
+### Help
+
+```powershell
+PS C:\> Get-Help Export-Ispac -Full
+```
+
